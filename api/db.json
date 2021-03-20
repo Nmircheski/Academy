@@ -1,16 +1,370 @@
 {
-  "teams": [
-    {
+  "courses": [{
       "id": 1,
-      "name": "FC Barcelona",
-      "coach": "Ernesto Valverde",
-      "description": "The best football team in the world!"
+      "title": "Angular",
+      "mentor": {
+        "name": "Nikola",
+        "surname": "Stojkovski",
+        "email": "nsk@mca.dev",
+        "company": "MCA",
+        "bio": "A Bachelor of Science - BSc in Computer Science and Engineering, currently working as a Full Stack .NET Developer, mainly focused on building RESTfull APIs using .NET Core, communicating with client applications developed in Angular."
+      },
+      "description": "Angular is one of the fastest, most popular open source web app frameworks today, and knowing how to use it is essential for developers. You'll learn how to create components and user interfaces, data-binding, retrieving data using HTTP, and more",
+      "level": "Beginner",
+      "duration": 240,
+      "date": "21-03-2021",
+      "rating": 5.0,
+      "participants": [{
+          "id": 1,
+          "name": "Nicholas",
+          "surname": "Woodmansee",
+          "email": "NicholasCWoodmansee@dayrep.com"
+        },
+        {
+          "id": 2,
+          "name": "Dorothy",
+          "surname": "Ray",
+          "email": "DorothyRay@dayrep.com"
+        },
+        {
+          "id": 3,
+          "name": "David",
+          "surname": "Meek",
+          "email": "DavidMeek@dayrep.com"
+        },
+        {
+          "id": 4,
+          "name": "Deirdre",
+          "surname": "Woodmansee",
+          "email": "DeirdreWoodmansee@dayrep.com"
+        },
+        {
+          "id": 5,
+          "name": "James",
+          "surname": "Juliano",
+          "email": "JamesJuliano@dayrep.com"
+        },
+        {
+          "id": 6,
+          "name": "Norma",
+          "surname": "May",
+          "email": "NormaMay@dayrep.com"
+        }
+      ]
     },
     {
       "id": 2,
-      "name": "Real Madrid",
-      "coach": "Zinedine Zidane",
-      "description": "The worst football team in the world!"
+      "title": "React",
+      "mentor": {
+        "name": "Nikola",
+        "surname": "Mircheski",
+        "email": "nmr@mca.dev",
+        "company": "MCA",
+        "bio": "Software engineer, working on a large enterpise Angular application. Responsible for the development and maintenance of components, libraries, state (NgRx), TypeScript, RxJs, modules, etc."
+      },
+      "description": "React is an open-source JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.",
+      "level": "Beginner",
+      "duration": 278,
+      "date": "20-02-2021",
+      "rating": 4.7,
+      "participants": [{
+          "id": 1,
+          "name": "Nicholas",
+          "surname": "Woodmansee",
+          "email": "NicholasCWoodmansee@dayrep.com"
+        },
+        {
+          "id": 2,
+          "name": "Dorothy",
+          "surname": "Ray",
+          "email": "DorothyRay@dayrep.com"
+        },
+        {
+          "id": 3,
+          "name": "David",
+          "surname": "Meek",
+          "email": "DavidMeek@dayrep.com"
+        },
+        {
+          "id": 4,
+          "name": "Deirdre",
+          "surname": "Woodmansee",
+          "email": "DeirdreWoodmansee@dayrep.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "C#",
+      "mentor": {
+        "name": "Bridget",
+        "surname": "Hoffman",
+        "email": "BridgetHoffman@gmail.com",
+        "company": "Microsoft",
+        "bio": "Software developer based in Southampton, England, working for NICE Systems as a software architect creating cloud based digital evidence management systems for the police."
+      },
+      "description": "C# is the most commonly used language for leveraging the .NET Framework. As such, learning C# is a springboard to creating enterprise systems, desktop applications, websites and mobile applications. The goal of this learning path is to take you from having little to no experience with C# to understanding how to leverage the language's advanced features and how it works on the CLR.",
+      "level": "Beginner",
+      "duration": 185,
+      "date": "20-02-2021",
+      "rating": 4.5,
+      "participants": [{
+          "id": 1,
+          "name": "Nicholas",
+          "surname": "Woodmansee",
+          "email": "NicholasCWoodmansee@dayrep.com"
+        },
+        {
+          "id": 2,
+          "name": "Dorothy",
+          "surname": "Ray",
+          "email": "DorothyRay@dayrep.com"
+        },
+        {
+          "id": 3,
+          "name": "David",
+          "surname": "Meek",
+          "email": "DavidMeek@dayrep.com"
+        },
+        {
+          "id": 4,
+          "name": "Deirdre",
+          "surname": "Woodmansee",
+          "email": "DeirdreWoodmansee@dayrep.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "JAVA",
+      "mentor": {
+        "name": "Timothy",
+        "surname": "Miles",
+        "email": "TimothyMiles@gmail.com",
+        "company": "Oracle",
+        "bio": "Timothy Miles is president of JW Hedgehog, Inc., a consulting firm specializing in solutions for the Android, iOS, and Microsoft platforms. Jim has over 30 years of software engineering experience."
+      },
+      "description": "Java is one of the most widely used programming languages in the world. Originally developed by Sun Microsystems in the 1990s, Java is used to develop everything from web applications to mobile apps to batch processing applications. Java was originally a pure object-oriented language but it has developed into a multi-paradigm language making highly adaptable to any situation.",
+      "level": "Beginner",
+      "duration": 200,
+      "date": "20-02-2021",
+      "rating": 4.9,
+      "participants": [{
+          "id": 1,
+          "name": "Nicholas",
+          "surname": "Woodmansee",
+          "email": "NicholasCWoodmansee@dayrep.com"
+        },
+        {
+          "id": 2,
+          "name": "Dorothy",
+          "surname": "Ray",
+          "email": "DorothyRay@dayrep.com"
+        },
+        {
+          "id": 3,
+          "name": "David",
+          "surname": "Meek",
+          "email": "DavidMeek@dayrep.com"
+        },
+        {
+          "id": 4,
+          "name": "Deirdre",
+          "surname": "Woodmansee",
+          "email": "DeirdreWoodmansee@dayrep.com"
+        },
+        {
+          "id": 5,
+          "name": "James",
+          "surname": "Juliano",
+          "email": "JamesJuliano@dayrep.com"
+        },
+        {
+          "id": 6,
+          "name": "Norma",
+          "surname": "May",
+          "email": "NormaMay@dayrep.com"
+        },
+        {
+          "id": 7,
+          "name": "David",
+          "surname": "Juliano",
+          "email": "DavidJuliano@dayrep.com"
+        },
+        {
+          "id": 8,
+          "name": "Deirdre",
+          "surname": "Ray",
+          "email": "DeirdreRay@dayrep.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "GraphQL",
+      "mentor": {
+        "name": "Jill",
+        "surname": "Weedman",
+        "email": "JillWeedman@gmail.com",
+        "company": "Microsoft",
+        "bio": "Jill Weedman is a software developer, consultant, conference speaker, and Pluralsight author. His courses include: GraphQL and Object-Oriented Programming"
+      },
+      "description": "Apollo is the industry-standard GraphQL implementation, providing the data graph layer that connects modern apps to the cloud. It provides a better way to build APIs by managing all of your data in one place. It is suited for modern architecture and helps you build great experiences faster. In this path you will learn the basics of GraphQL and Apollo while creating, consuming and testing a fully functional API.",
+      "level": "Intermediate",
+      "duration": 164,
+      "date": "12-04-2021",
+      "rating": 4.4,
+      "participants": [{
+          "id": 1,
+          "name": "Deirdre",
+          "surname": "Woodmansee",
+          "email": "DeirdreWoodmansee@dayrep.com"
+        },
+        {
+          "id": 2,
+          "name": "James",
+          "surname": "Juliano",
+          "email": "JamesJuliano@dayrep.com"
+        },
+        {
+          "id": 3,
+          "name": "Norma",
+          "surname": "May",
+          "email": "NormaMay@dayrep.com"
+        },
+        {
+          "id": 4,
+          "name": "David",
+          "surname": "Juliano",
+          "email": "DavidJuliano@dayrep.com"
+        },
+        {
+          "id": 5,
+          "name": "Deirdre",
+          "surname": "Ray",
+          "email": "DeirdreRay@dayrep.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Xamarin",
+      "mentor": {
+        "name": "Bridget",
+        "surname": "Hoffman",
+        "email": "BridgetHoffman@gmail.com",
+        "company": "Microsoft",
+        "bio": "Briget Hoffman is a polyglot solution developer with over 20 years of experience across several business domains. He has enjoyed many of those years focusing on the .Net stack for both web and mobile."
+      },
+      "description": "Learn the skills necessary to create multi-platform applications with Xamarin.Forms that provide a rich user experience and run natively across iOS, Android, and Universal Windows Platform (UWP) from a single, shared C# code base.",
+      "level": "Intermediate",
+      "duration": 150,
+      "date": "10-10-2021",
+      "rating": 4.8,
+      "participants": [{
+          "id": 1,
+          "name": "Nicholas",
+          "surname": "Woodmansee",
+          "email": "NicholasCWoodmansee@dayrep.com"
+        },
+        {
+          "id": 2,
+          "name": "Dorothy",
+          "surname": "Ray",
+          "email": "DorothyRay@dayrep.com"
+        },
+        {
+          "id": 3,
+          "name": "David",
+          "surname": "Meek",
+          "email": "DavidMeek@dayrep.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Azure functions",
+      "mentor": {
+        "name": "Nikola",
+        "surname": "Stojkovski",
+        "email": "nsk@mca.dev",
+        "company": "MCA",
+        "bio": "A Bachelor of Science - BSc in Computer Science and Engineering, currently working as a Full Stack .NET Developer, mainly focused on building RESTfull APIs using .NET Core, communicating with client applications developed in Angular."
+      },
+      "description": "Azure Functions is the quickest and easiest way to get your code running in Azure. This course will teach you how to create your own serverless functions, integrate with other services, and host them in Azure or Docker containers.",
+      "level": "Advanced",
+      "duration": 200,
+      "date": "10-03-2021",
+      "rating": 4.2,
+      "participants": [{
+          "id": 1,
+          "name": "Deirdre",
+          "surname": "Woodmansee",
+          "email": "DeirdreWoodmansee@dayrep.com"
+        },
+        {
+          "id": 2,
+          "name": "James",
+          "surname": "Juliano",
+          "email": "JamesJuliano@dayrep.com"
+        },
+        {
+          "id": 3,
+          "name": "Norma",
+          "surname": "May",
+          "email": "NormaMay@dayrep.com"
+        }
+      ]
+    }
+  ],
+  "mentors": [
+    {
+      "id": 1,
+      "name": "Nikola",
+      "surname": "Stojkovski",
+      "email": "nsk@mca.dev",
+      "company": "MCA",
+      "bio": "A Bachelor of Science - BSc in Computer Science and Engineering, currently working as a Full Stack .NET Developer, mainly focused on building RESTfull APIs using .NET Core, communicating with client applications developed in Angular."
+    },
+    {
+      "id": 2,
+      "name": "Nikola",
+      "surname": "Mircheski",
+      "email": "nmr@mca.dev",
+      "company": "MCA",
+      "bio": "Software engineer, working on a large enterpise Angular application. Responsible for the development and maintenance of components, libraries, state (NgRx), TypeScript, RxJs, modules, etc."
+    },
+    {
+      "id": 3,
+      "name": "Bridget",
+      "surname": "Hoffman",
+      "email": "BridgetHoffman@gmail.com",
+      "company": "Microsoft",
+      "bio": "Software developer based in Southampton, England, working for NICE Systems as a software architect creating cloud based digital evidence management systems for the police."
+    },
+    {
+      "id": 4,
+      "name": "Timothy",
+      "surname": "Miles",
+      "email": "TimothyMiles@gmail.com",
+      "company": "Oracle",
+      "bio": "Timothy Miles is president of JW Hedgehog, Inc., a consulting firm specializing in solutions for the Android, iOS, and Microsoft platforms. Jim has over 30 years of software engineering experience."
+    },
+    {
+      "id": 5,
+      "name": "Jill",
+      "surname": "Weedman",
+      "email": "JillWeedman@gmail.com",
+      "company": "Microsoft",
+      "bio": "Jill Weedman is a software developer, consultant, conference speaker, and Pluralsight author. His courses include: GraphQL and Object-Oriented Programming"
+    },
+    {
+      "id": 6,
+      "name": "Bridget",
+      "surname": "Hoffman",
+      "email": "BridgetHoffman@gmail.com",
+      "company": "Microsoft",
+      "bio": "Briget Hoffman is a polyglot solution developer with over 20 years of experience across several business domains. He has enjoyed many of those years focusing on the .Net stack for both web and mobile."
     }
   ]
 }
