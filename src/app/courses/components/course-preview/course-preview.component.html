@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{ course.image }}" alt="Card image cap" height="220px">
+  <div class="card-body">
+    <h5 class="card-title">{{course.title}}</h5>
+    <p class="card-text">{{course.description | slice:0:150}}...</p>
+    <a (click)="handleViewDetailsClicked(course.id)"  class="btn btn-primary">View details</a>
+  </div>
+</div>
