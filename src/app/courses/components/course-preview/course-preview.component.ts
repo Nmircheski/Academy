@@ -1,5 +1,6 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ICourse } from 'src/app/models/models';
 
 @Component({
   selector: 'app-course-preview',
@@ -9,13 +10,17 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class CoursePreviewComponent implements OnInit {
 
+  @Input()
+  public course: ICourse;
+
   constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
-  public handleViewDetailsClicked() {
+  public handleViewDetailsClicked(courseId: number) {
     //TODO ID
-    this.router.navigate(['/courses', 1]);
+    console.log(courseId);
+    this.router.navigate(['/courses', courseId]);
   }
 }
