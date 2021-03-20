@@ -1,0 +1,18 @@
+<h1>Course info</h1>
+
+<h3>Name: {{ courseInfo.title }}</h3>
+<h3>Description: {{ courseInfo.description }}</h3>
+<h3>Level: {{ courseInfo.level }}</h3>
+<h3>Duration: {{ courseInfo.duration }}</h3>
+<h3>Rating: {{ courseInfo.rating }}</h3>
+<h3>Date: {{ courseInfo.date }}</h3>
+
+<hr>
+<h2>Mentor info</h2>
+
+<h3>Name: {{ courseInfo.mentor.name + ' ' + courseInfo.mentor.surName }}</h3>
+<h3>Bio: {{ courseInfo.mentor.bio }}</h3>
+
+<h2>Participants</h2>
+
+<app-table [columnNames]="columnNames" [items]="items"></app-table>
