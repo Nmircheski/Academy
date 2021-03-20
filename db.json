@@ -316,5 +316,55 @@
         }
       ]
     }
+  ],
+  "mentors": [
+    {
+      "id": 1,
+      "name": "Nikola",
+      "surname": "Stojkovski",
+      "email": "nsk@mca.dev",
+      "company": "MCA",
+      "bio": "A Bachelor of Science - BSc in Computer Science and Engineering, currently working as a Full Stack .NET Developer, mainly focused on building RESTfull APIs using .NET Core, communicating with client applications developed in Angular."
+    },
+    {
+      "id": 2,
+      "name": "Nikola",
+      "surname": "Mircheski",
+      "email": "nmr@mca.dev",
+      "company": "MCA",
+      "bio": "Software engineer, working on a large enterpise Angular application. Responsible for the development and maintenance of components, libraries, state (NgRx), TypeScript, RxJs, modules, etc."
+    },
+    {
+      "id": 3,
+      "name": "Bridget",
+      "surname": "Hoffman",
+      "email": "BridgetHoffman@gmail.com",
+      "company": "Microsoft",
+      "bio": "Software developer based in Southampton, England, working for NICE Systems as a software architect creating cloud based digital evidence management systems for the police."
+    },
+    {
+      "id": 4,
+      "name": "Timothy",
+      "surname": "Miles",
+      "email": "TimothyMiles@gmail.com",
+      "company": "Oracle",
+      "bio": "Timothy Miles is president of JW Hedgehog, Inc., a consulting firm specializing in solutions for the Android, iOS, and Microsoft platforms. Jim has over 30 years of software engineering experience."
+    },
+    {
+      "id": 5,
+      "name": "Jill",
+      "surname": "Weedman",
+      "email": "JillWeedman@gmail.com",
+      "company": "Microsoft",
+      "bio": "Jill Weedman is a software developer, consultant, conference speaker, and Pluralsight author. His courses include: GraphQL and Object-Oriented Programming"
+    },
+    {
+      "id": 6,
+      "name": "Bridget",
+      "surname": "Hoffman",
+      "email": "BridgetHoffman@gmail.com",
+      "company": "Microsoft",
+      "bio": "Briget Hoffman is a polyglot solution developer with over 20 years of experience across several business domains. He has enjoyed many of those years focusing on the .Net stack for both web and mobile."
+    }
   ]
 }
