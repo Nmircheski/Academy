@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { ICourse, IMentor } from '../models/models';
 
 @Injectable({
   providedIn: 'root'
@@ -10,15 +12,15 @@ export class ApiService {
   //TODO add models
   constructor(private http: HttpClient) { }
 
-  public getCourses() {
-   return this.http.get(`${this.apiUrl}/courses`);
+  public getCourses() : Observable<ICourse[]> {
+   return this.http.get<ICourse[]>(`${this.apiUrl}/courses`);
   }
 
-  public getCourse(id: number) {
-    return this.http.get(`${this.apiUrl}/courses/${id}`);
+  public getCourse(id: number) : Observable<ICourse> {
+    return this.http.get<ICourse>(`${this.apiUrl}/courses/${id}`);
   }
 
-  public getMentors() {
-    return this.http.get(`${this.apiUrl}/mentors`);
+  public getMentors() : Observable<IMentor[]> {
+    return this.http.get<IMentor[]>(`${this.apiUrl}/mentors`);
   }
 }
