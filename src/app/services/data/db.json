@@ -324,8 +324,7 @@
       ]
     }
   ],
-  "mentors": [
-    {
+  "mentors": [{
       "id": 1,
       "name": "Nikola",
       "surname": "Stojkovski",

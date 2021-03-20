@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ICourse } from 'src/app/models/models';
+import { ApiService } from 'src/app/services/api.service';
 import { LocalService } from 'src/app/services/local.service';
 
 @Component({
@@ -11,10 +12,12 @@ export class CourseListComponent implements OnInit {
 
   public courses : ICourse[];
 
-  constructor(private service: LocalService) { }
+  constructor(private service: ApiService) { }
 
   ngOnInit() {
-    this.courses = this.service.getCourses();
+    this.service.getCourses().subscribe((value) => {
+      this.courses = value;
+    });
   }
 
 }
