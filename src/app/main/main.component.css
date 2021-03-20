@@ -1,0 +1,15 @@
+.custom-color {
+  background-color: inherit;
+}
+
+.card-header {
+  background-color: #e9ecef;
+}
+
+.jumbotron {
+  background: #253340 url(../../assets/Coding.jpg) no-repeat 50% top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
