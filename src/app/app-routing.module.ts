@@ -6,7 +6,8 @@ import { MainComponent } from './main/main.component';
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'courses', loadChildren: () => import('./courses/courses.module').then(m => m.CoursesModule) },
-  // { path: '**',   redirectTo: '', pathMatch: 'full' },
+  { path: 'mentors', loadChildren: () => import('./mentors/mentors.module').then(m => m.MentorsModule) },
+  { path: '**',   redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
