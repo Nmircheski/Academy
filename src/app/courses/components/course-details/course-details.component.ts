@@ -8,8 +8,7 @@ import { LocalService } from 'src/app/services/local.service';
 @Component({
   selector: 'app-course-details',
   templateUrl: './course-details.component.html',
-  styleUrls: ['./course-details.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  styleUrls: ['./course-details.component.css']
 })
 export class CourseDetailsComponent implements OnInit {
   public columnNames = ['name', 'surname', "email"];
@@ -18,7 +17,7 @@ export class CourseDetailsComponent implements OnInit {
   constructor(private service: ApiService, private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
-    let courseId = this.activatedRoute.snapshot.params.id;
+    let courseId = +this.activatedRoute.snapshot.params.id;
     this.service.getCourse(courseId).subscribe((value)=>{
       this.courseInfo = value;
     });

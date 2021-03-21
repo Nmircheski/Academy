@@ -1,6 +1,6 @@
 export interface ICourse {
     id: number;
-    name: string;
+    title: string;
     image: string;
     mentor: IMentor;
     description: string;
