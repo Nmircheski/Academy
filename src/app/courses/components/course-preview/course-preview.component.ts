@@ -6,7 +6,6 @@ import { ICourse } from 'src/app/models/models';
   selector: 'app-course-preview',
   templateUrl: './course-preview.component.html',
   styleUrls: ['./course-preview.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CoursePreviewComponent implements OnInit {
 
@@ -19,8 +18,6 @@ export class CoursePreviewComponent implements OnInit {
   }
 
   public handleViewDetailsClicked(courseId: number) {
-    //TODO ID
-    console.log(courseId);
     this.router.navigate(['/courses', courseId]);
   }
 }
